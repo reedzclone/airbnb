@@ -20,7 +20,7 @@ import SecurityUpdateGoodOutlinedIcon from "@mui/icons-material/SecurityUpdateGo
 import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
 
 function Booking() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(true);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const handleToggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
