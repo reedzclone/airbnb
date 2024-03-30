@@ -1,0 +1,133 @@
+.filter {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+  place-content: center space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row;
+  height: 72px;
+  overflow: visible;
+  padding: 2rem 2rem;
+  position: sticky;
+  top: 0;
+  will-change: transform;
+  z-index: 1;
+}
+
+.boxs {
+  display: flex;
+}
+
+.small-boxs {
+  place-content: center;
+  align-items: center;
+  background-color: rgb(17, 17, 17);
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row;
+  gap: 10px;
+  height: 48px;
+  overflow: visible;
+  padding: 0px;
+  position: relative;
+  width: 48px;
+}
+
+.small-cover {
+  place-content: center;
+  align-items: center;
+  background-color: rgb(243, 243, 242);
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row;
+  gap: 10px;
+  height: 48px;
+  overflow: visible;
+  padding: 0px;
+  position: relative;
+  width: 48px;
+}
+
+.filter_params {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.place {
+  place-content: center flex-start;
+  align-items: center;
+  background-color: rgb(243, 243, 242);
+  border-radius: 12px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row;
+  gap: 0px;
+  height: 48px;
+  overflow: visible;
+  padding: 4px 16px;
+  position: relative;
+}
+
+.place p {
+  margin-right: 10rem;
+}
+
+.arrow {
+  font-weight: 400;
+}
+
+.date,
+.guest {
+  align-items: center;
+  background-color: rgb(243, 243, 242);
+  border-radius: 12px;
+  display: flex;
+  gap: 12px;
+  height: 48px;
+  overflow: visible;
+  padding: 4px 16px;
+}
+
+.minus,
+.plus {
+  place-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row;
+  gap: 10px;
+  height: 30px;
+  overflow: visible;
+  padding: 0px;
+  position: relative;
+  width: 32px;
+  color: rgb(212, 59, 81);
+  font-weight: 600;
+}
+
+.filter_icon {
+  background-color: rgb(243, 243, 242);
+  opacity: 1;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  width: 48px;
+  height: 48px;
+}
+
+.wg {
+  color: var(--icon-white);
+}
+
+.icon-dash {
+  color: var(--icon-gray);
+}

@@ -1,0 +1,29 @@
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+  padding: 24px;
+  border: var(--border);
+  border-radius: 20px;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.progress-title {
+  width: 36%;
+  font-weight: 500;
+}
+
+.guage {
+  position: absolute;
+  right: 0;
+}
+
+.css-5xe99f-MuiLinearProgress-bar1 {
+  background-color: rgb(211, 59, 80) !important;
+}

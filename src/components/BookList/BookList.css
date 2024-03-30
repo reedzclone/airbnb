@@ -1,0 +1,90 @@
+.grid {
+  position: relative;
+}
+
+.booklist-img {
+  height: 250px;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  border-radius: 15px !important;
+}
+
+.card {
+  height: 100%;
+}
+
+.card:hover {
+  transition: "box-shadow 0.3s ease";
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  cursor: pointer;
+}
+
+.booklist-content {
+  padding: 20px !important;
+}
+
+.extra {
+  margin-bottom: 5.3rem !important;
+}
+
+.booklist-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.booklist-desc {
+  margin-top: 8px;
+  color: var(--gray-color);
+  margin-bottom: 4rem;
+}
+
+.fav-icon {
+  position: absolute;
+  top: 10%;
+  left: 86%;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fav-icon:hover {
+  cursor: pointer;
+  background-color: #000;
+  transition: 0.3s ease;
+}
+
+.icon:hover {
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices .price-tag {
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  color: #000;
+  margin-right: 5px;
+}
+
+.na {
+  display: flex;
+}

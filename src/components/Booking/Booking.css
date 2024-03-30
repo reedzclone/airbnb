@@ -1,0 +1,416 @@
+.booking {
+  margin-top: 20px;
+}
+
+/* button */
+
+/* Drawer content */
+.drawer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+}
+
+.drawer-close-btn {
+  position: fixed;
+  top: 3%;
+  left: 19rem; /* Initial position outside the viewport */
+  width: 40px;
+  height: 40px;
+  transition: 3s ease-in; /* Animation transition */
+  z-index: 1000;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+.drawer-close-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.image-grid {
+  display: flex;
+  width: 100%;
+}
+
+.image-grid img {
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.right-side img {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.right-side-top {
+  margin-bottom: 15px;
+}
+
+.super {
+  margin-top: 32px;
+  border: var(--border);
+  width: 10%;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black-color);
+}
+
+.main-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-side .right-side {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.main-side .left-side {
+  flex: 1;
+}
+
+.right-side .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--black-color);
+}
+
+.title .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.title-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ececec;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.description {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.amenities {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.ameni {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 35px 0;
+}
+
+.plan-title {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.plan-desc {
+  font-size: 14px;
+  color: var(--gray-color);
+  line-height: 20px;
+}
+
+.about {
+  margin: 35px 0;
+}
+
+.about-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.about-desc {
+  color: var(--gray-color);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.about-sub-title {
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.read {
+  margin-top: 32px;
+  color: rgb(211, 59, 80);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.offer {
+  margin: 35px 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.offer-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.offers p {
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.view {
+  margin-top: 32px;
+  color: rgb(211, 59, 80);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.review {
+  margin: 35px 0;
+}
+.reviews {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.review-rating span {
+  margin-right: 8px;
+  color: var(--black-color);
+  font-size: 14px;
+}
+
+.left-wrapper {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+}
+
+.left-side {
+  padding: 24px;
+  background-color: rgb(245, 245, 244);
+  border-radius: 20px;
+  border: 1px solid rgba(17, 17, 17, 0.04);
+  height: 558px;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+.price-quote-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-quote-title p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.price-quote-title p > span {
+  color: #111111;
+  font-weight: 400;
+}
+
+.price-quote-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-quote-icons p {
+  font-size: 14px;
+  color: #111111;
+  font-weight: 400;
+}
+
+.price-quote-icons span {
+  margin-right: 8px;
+}
+
+.check-date {
+  display: flex;
+  padding: 0;
+  margin-top: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check {
+  font-size: 12px;
+  color: #717171;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.check-input {
+  background-color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(17, 17, 17, 0.04);
+}
+
+.check-input:hover {
+  border: 1px solid #626262;
+}
+
+.no-guest {
+  margin: 24px 0;
+}
+
+.no-guest-title {
+  font-size: 12px;
+  color: #717171;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.no-guest-input {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(17, 17, 17, 0.04);
+}
+
+.no-guest-input:hover {
+  border: 1px solid #626262;
+}
+
+.price-summary {
+  margin: 24px 0;
+  gap: 24px;
+}
+
+.price-summary .sum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.sum .sum-title {
+  font-weight: 500;
+}
+
+.total {
+  display: flex;
+  margin: 24px 0;
+  justify-content: space-between;
+}
+
+.total-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.total-title span {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.total-price {
+  font-size: 16px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    95.006deg,
+    rgb(211, 59, 80) 0%,
+    rgb(198, 47, 101) 100%
+  );
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  border-radius: 12px;
+  padding: 16px 24px;
+}
+
+.rare {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid rgba(17, 17, 17, 0.04);
+  background-color: rgba(212, 59, 81, 0.04);
+  border-radius: 20px;
+  gap: 24px;
+  height: 112px;
+  padding: 24px;
+  width: 360px;
+}
+
+.rare-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.rare-title p {
+  margin-bottom: 4px;
+}
+
+.rare-title span {
+  font-size: 14px;
+  font-weight: 400;
+}

@@ -1,0 +1,46 @@
+:root {
+  --black-color: #111111;
+  --icon-gray: #717171;
+  --gray-color: #717171;
+  --icon-white: #fff;
+  --border: 1px solid rgba(17, 17, 17, 0.1);
+  --gradient-color: linear-gradient(
+    90deg,
+    rgb(211, 59, 80) 0%,
+    rgb(198, 47, 101) 100%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: var(--black-color);
+}
+
+li,
+span {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: var(--gray-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Inter", sans-serif;
+  color: #111111;
+}
+
+hr {
+  color: #dadadacd;
+}

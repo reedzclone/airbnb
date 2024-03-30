@@ -1,0 +1,39 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgba(17, 17, 17, 0.1);
+  padding: 0 32px;
+}
+
+.nav_list {
+  display: flex;
+  align-items: flex-start;
+  flex: 0 0 auto;
+  gap: 40px;
+  list-style: none;
+  font-size: 16px;
+  margin: 0;
+}
+
+.nav_list li {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.nav_list .active {
+  border-bottom: 3px solid rgb(212, 59, 81);
+  font-weight: 600;
+}
+
+.logo-image {
+  width: 100px;
+  height: 60px;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
