@@ -15,8 +15,12 @@ import BedOutlinedIcon from "@mui/icons-material/BedOutlined";
 import ShowerOutlinedIcon from "@mui/icons-material/ShowerOutlined";
 import BookingList from "../BookList/BookList";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
+import ComputerOutlinedIcon from "@mui/icons-material/ComputerOutlined";
+import SecurityUpdateGoodOutlinedIcon from "@mui/icons-material/SecurityUpdateGoodOutlined";
+import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
+
 function Booking() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(true);
 
   const handleToggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
@@ -91,18 +95,36 @@ function Booking() {
               <hr />
               <div className="plans">
                 <div className="plan">
+                  <div className="plans-icon">
+                    <ComputerOutlinedIcon
+                      className="plan-icon"
+                      fontSize="medium"
+                    />
+                  </div>
                   <p className="plan-title">Dedicated workspace</p>
                   <p className="plan-desc">
                     A private room with wifi that’s well-suited for working.
                   </p>
                 </div>
                 <div className="plan">
+                  <div className="plans-icon">
+                    <SecurityUpdateGoodOutlinedIcon
+                      className="plan-icon"
+                      fontSize="medium"
+                    />
+                  </div>
                   <p className="plan-title">Self check-in</p>
                   <p className="plan-desc">
                     Check yourself in with the keypad.
                   </p>
                 </div>
                 <div className="plan">
+                  <div className="plans-icon">
+                    <EventAvailableOutlinedIcon
+                      className="plan-icon"
+                      fontSize="medium"
+                    />
+                  </div>
                   <p className="plan-title">Free cancellation before Jul 25</p>
                   <p className="plan-desc">
                     A private room with wifi that’s well-suited for working.

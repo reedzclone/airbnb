@@ -1,4 +1,5 @@
 import "./Host.css";
+import host from "../../assets/image/host.jpg";
 
 function Host() {
   return (
@@ -6,7 +7,7 @@ function Host() {
       <p className="host">Host</p>
       <div className="host-top">
         <div className="host-profile-wrapper">
-          <img src="" alt="" />
+          <img src={host} alt="" />
           <div className="host-profile">
             <p className="host-title">Hosted by Brenda</p>
             <p className="host-title-desc">Joined in August 2014</p>

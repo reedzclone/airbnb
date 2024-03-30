@@ -1,4 +1,8 @@
 import "./Comment.css";
+import comment1 from "../../assets/image/comment1.jpg";
+import comment2 from "../../assets/image/comment2.jpg";
+import comment3 from "../../assets/image/comment3.jpg";
+import comment4 from "../../assets/image/comment4.jpg";
 
 function Comment() {
   return (
@@ -7,7 +11,7 @@ function Comment() {
         <section>
           <div className="comment">
             <div className="comment-top">
-              <img src="" alt="" />
+              <img src={comment2} alt="" />
               <div className="comment-title">
                 <p className="title">Steve</p>
                 <p className="title2">March 2023</p>
@@ -21,7 +25,7 @@ function Comment() {
           </div>
           <div className="comment">
             <div className="comment-top">
-              <img src="" alt="" />
+              <img src={comment1} alt="" />
               <div className="comment-title">
                 <p className="title">Emily</p>
                 <p className="title2">March 2023</p>
@@ -37,7 +41,7 @@ function Comment() {
         <section>
           <div className="comment">
             <div className="comment-top">
-              <img src="" alt="" />
+              <img src={comment3} alt="" />
               <div className="comment-title">
                 <p className="title">Daniel</p>
                 <p className="title2">March 2023</p>
@@ -51,7 +55,7 @@ function Comment() {
           </div>
           <div className="comment">
             <div className="comment-top">
-              <img src="" alt="" />
+              <img src={comment4} alt="" />
               <div className="comment-title">
                 <p className="title">Jackson</p>
                 <p className="title2">March 2023</p>
