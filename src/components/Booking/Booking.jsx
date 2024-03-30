@@ -18,6 +18,7 @@ import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import ComputerOutlinedIcon from "@mui/icons-material/ComputerOutlined";
 import SecurityUpdateGoodOutlinedIcon from "@mui/icons-material/SecurityUpdateGoodOutlined";
 import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
+import diamond from "../../assets/image/diamond.png";
 
 function Booking() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -279,7 +280,7 @@ function Booking() {
                 <div className="btn">Reserve</div>
               </div>
               <div className="rare">
-                <div>Diamond Image</div>
+                <img src={diamond} alt="" />
                 <div className="rare-title">
                   <p>This is a rare find</p>
 

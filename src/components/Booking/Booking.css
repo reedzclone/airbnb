@@ -431,3 +431,8 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+.rare img {
+  width: 45px;
+  height: 45px;
+}
