@@ -48,3 +48,7 @@ p {
 hr {
   color: #dadadacd;
 }
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  border-radius: 15px !important;
+}
