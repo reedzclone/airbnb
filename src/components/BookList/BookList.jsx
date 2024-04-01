@@ -4,17 +4,6 @@ import { Grid, Card, CardContent } from "@mui/material";
 // import Data from "../../Data.json";
 import StarIcon from "@mui/icons-material/Star";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
-import img1 from "../../assets/image/img1.jpg";
-import img2 from "../../assets/image/img2.jpg";
-import img3 from "../../assets/image/img3.jpg";
-import img4 from "../../assets/image/img4.jpg";
-import img5 from "../../assets/image/img5.jpg";
-import img6 from "../../assets/image/img6.jpg";
-import img7 from "../../assets/image/img7.jpg";
-import img8 from "../../assets/image/img8.jpg";
-import img9 from "../../assets/image/img9.jpg";
-import img10 from "../../assets/image/img10.jpg";
-import img11 from "../../assets/image/img11.jpg";
 
 // eslint-disable-next-line react/prop-types
 function BookList({ onhandleToggleDrawer }) {
@@ -24,7 +13,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img1}
+            src="https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/v2/LOKANVH4QVBJ3BPA66BXKY6YA4.jpeg?smart=true&auth=49ca7aafa684a8048b4c4a58813a95e81ac87236c444ac70df81d6829a1efee4&width=800&height=533"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -55,7 +44,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img2}
+            src="https://www.decorilla.com/online-decorating/wp-content/uploads/2022/06/Airbnb-interior-design-ideas-Joshua-Tree-House.jpeg"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -85,7 +74,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img3}
+            src="https://i.pinimg.com/736x/70/a8/ab/70a8ab5aa285df3fa6c8b95d497dadcd.jpg"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -115,7 +104,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img4}
+            src="https://hips.hearstapps.com/bestproducts/assets/18/03/1516295489-vale-garden-residence.jpg"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -145,7 +134,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img5}
+            src="https://lh5.googleusercontent.com/p/AF1QipNL62rL3Qa08ZD6qE_k-rEHP-rcXIdmQ0o9pK_0"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -175,7 +164,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img6}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfk52AXedTE5gnZUILkB7QNni3kukJL5CuUyYiDXRjMZAQdprFgj7YaVgbU_tDHf26YdY&usqp=CAU"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -207,7 +196,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img7}
+            src="https://www.kayak.com/rimg/himg/92/45/23/expediav2-2280584-3634716287-870868.jpg?width=968&height=607&crop=true"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -237,7 +226,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img8}
+            src="https://www.stayingcool.com/wp-content/uploads/2019/05/Staying-Cool-Birmingham-Apart-Hotel-penthouse-balcony-2.webp"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -267,7 +256,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img9}
+            src="https://cdn.citybaseapartments.com/blog/cba-media/2020-03/stay_1.jpg?ooMediaId=6246"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -297,7 +286,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img10}
+            src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/120186434.jpg?k=e90f0699faa2c50da67ec560c749695f49621c42812fe256270c8810aa98fbd1&o=&hp=1"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
@@ -325,7 +314,7 @@ function BookList({ onhandleToggleDrawer }) {
       <Grid item xs={12} sm={6} md={3} className="grid">
         <Card className="card" onClick={onhandleToggleDrawer}>
           <img
-            src={img11}
+            src="https://image-tc.galaxy.tf/wijpeg-7k0esu99qkbawe4difb9vsyvo/bedroom-image1_standard.jpg?crop=107%2C0%2C1707%2C1280"
             alt="Image 1"
             style={{ width: "100%" }}
             className="booklist-img"
